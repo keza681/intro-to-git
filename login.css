@@ -1,0 +1,175 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(129, 175, 251, 1);
+}
+
+header a img {
+    height: 62px;
+    width: 222px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    gap: 5px;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.section {
+    background-color: rgba(233, 217, 254, 1);
+    height: 750px;
+    width: 1400px;
+    /* justify-content: center; */
+}
+
+
+/* //----------------------------------------------------------- */
+
+.division {
+    display: flex;
+}
+
+.menubar {
+    background-color: rgba(225, 186, 186, 1);
+    height: 750px;
+    width: 148px;
+}
+
+.background-form {
+    background-color: rgba(225, 186, 186, 1);
+    width: 738px;
+    height: 515px;
+    margin: auto;
+    /* margin-right: 0px;
+    margin-left: 195px; */
+    margin-top: 125px;
+    border-radius: 18px;
+    padding-top: 2em;
+}
+
+.fas {
+    /* display: block; */
+    /* height: 100px; */
+    margin-top: 142px;
+    margin-left: 25px;
+}
+
+i {
+    /* height: 80px; */
+    gap: 100px;
+    margin-top: 80px;
+    margin-left: 18px;
+    /* justify-items: center; */
+    font-family: 'Inter', sans-serif;
+}
+
+/* .signup-form{
+    background-color: rgba(221, 164, 164, 1);
+    height: 425px;
+    width: 400px;
+    margin: auto;
+} */
+
+.background-form h3 {
+    display: flex;
+    justify-content: center;
+    height: 113px;
+    align-items: center;
+}
+
+.form-box {
+    /* margin: auto; */
+    margin-left: 137px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box input {
+    background-color: white;
+    width: 70%;
+    height: 22px;
+    padding: 8px;
+    color: black;
+    margin-bottom: 20px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+
+}
+
+.background-form>p {
+    padding-top: 1px;
+}
+
+button {
+    background-color: rgba(221, 164, 164, 1);
+    /* width: 70%;
+    padding: 8px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    border: 0.5px solid black;
+    border-radius: 4px; */
+    height: 44px;
+    width: 439px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+p {
+    margin-left: 95px;
+}
+
+p>a {
+    color: black;
+}
+
+/* ----------------------------------------------- */
+
+#icon{
+    position: absolute;
+    color: black;
+    margin-top: 14px;
+    margin-left: -30px;
+    margin-right: 14px;
+
+    /* give the input pading so that it doesn't affect the placeholder */
+}
+/* ------------------------------------------------------ */
+
+.last-lines p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 52px;
+}
+
+.background-form>p{
+    margin-bottom: 1px;
+}
+
+.last-lines{
+    margin-top: 40px
+}
+
+.last-lines p a{
+    text-decoration: none;
+}
+
+.last-lines p i{
+    margin: 0px;
+}
